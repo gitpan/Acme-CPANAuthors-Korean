@@ -1,6 +1,13 @@
 Revision history for Perl extension Acme::CPANAuthors::Korean
 
-0.03    Tue Dec  1 20:00:00 2009
-        - fixed something
+0.04    Wed Mar 10 12:35:00 2010 KST
+        - added JPJEON
+
+0.03    Wed Mar 10 12:30:00 2010 KST
+        - added YONGBIN
+
+0.02    Wed Oct  7 15:13:00 2009
+        - added KHS
+
 0.01    Wed Oct  7 14:32:49 2009
         - original version

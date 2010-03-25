@@ -2,25 +2,27 @@ package Acme::CPANAuthors::Korean;
 
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Acme::CPANAuthors::Register (
-	JEEN => "Jong-jin Lee",
-	AERO => "C.H. Kang",
+	JEEN  => "Jong-jin Lee",
+	AERO  => "C.H. Kang",
 	KEEDI => "Keedi Kim",
-	YOU => "YOU Hyun Jo",
-        KHS => "HyeonSeung Kim"
+	YOU   => "YOU Hyun Jo",
+        KHS   => "HyeonSeung Kim",
+        YONGBIN => "Yongbin Yu",
+        JPJEON  => "Jongpil Jeon"
 );
 
 1;
 
 __END__
 
-=encoding utf-8
+=encoding utf8
 
 =head1 NAME
 
-Acme::CPANAuthors::Korean - We are Korean CPAN Authors!
+Acme::CPANAuthors::Korean - We are Korean CPAN Authors! (우리는 CPAN Author 다!)
 
 =head1 SYNOPSIS
 
