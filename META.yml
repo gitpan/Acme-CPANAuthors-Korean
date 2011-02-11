@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/jeen/acme-cpanauthors-korean/tree/master
-version: 0.061
+version: 0.07
