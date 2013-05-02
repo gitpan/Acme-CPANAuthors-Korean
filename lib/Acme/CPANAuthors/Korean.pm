@@ -2,7 +2,7 @@ package Acme::CPANAuthors::Korean;
 
 use strict;
 use warnings;
-our $VERSION = '0.010';
+our $VERSION = '0.10';
 
 use Acme::CPANAuthors::Register (
     AANOAA   => "Hyungsuk Hong",
