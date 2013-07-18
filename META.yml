@@ -1,13 +1,15 @@
 ---
-abstract: 'We are Korean CPAN Authors! (우리는 CPAN Author 다!)'
+abstract: 'We are Korean CPAN Authors! (ì°ë¦¬ë CPAN Author ë¤!)'
 author:
-  - 'Jeen Lee <jeen@cpan.org>'
+  - 'Jeen Lee <jeen@perl.kr>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  Test::More: 0.98
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.6, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,8 +18,24 @@ name: Acme-CPANAuthors-Korean
 no_index:
   directory:
     - t
+    - xt
     - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Acme::CPANAuthors::Korean:
+    file: lib/Acme/CPANAuthors/Korean.pm
+    version: 0.011
 requires:
-  Acme::CPANAuthors: 0.02
-  Test::More: 0.47
-version: 0.10
+  Acme::CPANAuthors: 0
+  perl: 5.008001
+resources:
+  bugtracker: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean/issues
+  homepage: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean
+  repository: git://github.com/JEEN/p5-Acme-CPANAuthors-Korean.git
+version: 0.011
+x_contributors:
+  - 'Keedi Kim <keedi.k@gmail.com>'
+  - 'Jeen Lee <aiatejin@gmail.com>'
