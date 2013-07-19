@@ -27,7 +27,7 @@ no_index:
 provides:
   Acme::CPANAuthors::Korean:
     file: lib/Acme/CPANAuthors/Korean.pm
-    version: 0.011
+    version: 0.11
 requires:
   Acme::CPANAuthors: 0
   perl: 5.008001
@@ -35,7 +35,7 @@ resources:
   bugtracker: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean/issues
   homepage: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean
   repository: git://github.com/JEEN/p5-Acme-CPANAuthors-Korean.git
-version: 0.011
+version: 0.11
 x_contributors:
   - 'Keedi Kim <keedi.k@gmail.com>'
   - 'Jeen Lee <aiatejin@gmail.com>'
