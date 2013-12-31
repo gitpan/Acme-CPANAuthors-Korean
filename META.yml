@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.6, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,10 +24,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Acme::CPANAuthors::Korean:
     file: lib/Acme/CPANAuthors/Korean.pm
-    version: 0.13
+    version: 0.14
 requires:
   Acme::CPANAuthors: 0
   perl: 5.008001
@@ -35,8 +36,8 @@ resources:
   bugtracker: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean/issues
   homepage: https://github.com/JEEN/p5-Acme-CPANAuthors-Korean
   repository: git://github.com/JEEN/p5-Acme-CPANAuthors-Korean.git
-version: 0.13
+version: 0.14
 x_contributors:
   - 'Keedi Kim <keedi.k@gmail.com>'
-  - 'Jeen Lee <aiatejin@gmail.com>'
   - 'Karen Etheridge <ether@cpan.org>'
+  - 'Jeen Lee <aiatejin@gmail.com>'
